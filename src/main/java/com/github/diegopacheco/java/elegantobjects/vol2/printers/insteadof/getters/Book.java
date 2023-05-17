@@ -1,10 +1,18 @@
 package com.github.diegopacheco.java.elegantobjects.vol2.printers.insteadof.getters;
 
 import org.json.simple.JSONObject;
-
-import java.io.StringWriter;
 import java.util.Objects;
 
+/**
+ * Principles:
+ *  Volume 1:
+ *    + Immutable Objects
+ *    + Primary ctor
+ *  **
+ *  Volume 2:
+ *    + Printers instead of Getters
+ *    + Utility Objects (JSONObject)
+ */
 public class Book {
 
     private String title;
