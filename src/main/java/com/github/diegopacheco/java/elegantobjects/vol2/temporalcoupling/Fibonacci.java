@@ -3,10 +3,13 @@ package com.github.diegopacheco.java.elegantobjects.vol2.temporalcoupling;
 /**
  * The author does not provide the full implementation on the book.
  * Did my best to make it as reasonable as Possible.
- *   Here we are using composable objects, the author gives some sudo code that is no java.
- *   I ported to java as good as I could. :-)
- * I had to move the code to an Eval internal method, still lazy, but cannot be on the
+ * Here we are using composable objects, the author gives some sudo code that is no Java.
+ * I ported to Java as good as I could. :-)
+ * I had to move the code to an eval internal method, still lazy, but cannot be on the
  * contractor otherwise I would get a stack overflow.
+ * This is only hypothetical you would need to implement this in the whole
+ * type system in java, therefore is another language :-) But is good Thought exercise.
+ * Proves the point of Temporal Coupling and reducing to only one statement.
  */
 public class Fibonacci extends Number {
 
