@@ -4,7 +4,7 @@ package com.github.diegopacheco.java.elegantobjects.vol2.mvc;
  * Principles: <BR/>
  *  + Printers  <BR/>
  *  + No Reflection, No instance per name or class - Encapsulation is preserved  <BR/>
- *  + Vertical Decomposition of Responsibilities (VoR) - No MVC  <BR/>
+ *  + Vertical Decomposition of Responsibilities (DoR) - No MVC  <BR/>
  *  + Immutability  <BR/>
  *  + No Getters / No Setters  <BR/>
  *  + No IoC / No DI  <BR/>
