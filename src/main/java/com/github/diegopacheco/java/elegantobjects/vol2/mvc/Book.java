@@ -13,11 +13,19 @@ public class Book implements Manuscript {
     }
 
     public Book(String isbn) {
-        this("","",isbn);
+        this(null,null,isbn);
     }
 
     @Override
     public String print() {
-        return "book: " + title + " by " + author + " isbn: " + isbn;
+        String message = "book: ";
+        if (null!=title){
+            message += title;
+        }
+        if (null!=author){
+            message += " by " + author + " ";
+        }
+        message += "isbn: " + isbn;
+        return message;
     }
 }

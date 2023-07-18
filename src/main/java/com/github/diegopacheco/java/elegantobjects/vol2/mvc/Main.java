@@ -18,5 +18,6 @@ public class Main {
 
         System.out.println(article.print());
         System.out.println(book.print());
+        System.out.println(new CachedBook("1234", new BookNotNull(new Book("1234"))).print());
     }
 }
