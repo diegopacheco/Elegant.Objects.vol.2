@@ -1,5 +1,14 @@
 package com.github.diegopacheco.java.elegantobjects.vol2.mvc;
 
+/*
+* Principles:
+*  + Printers
+*  + No Reflection, No instance per name or class - Encapsulation is preserved
+*  + Vertical Decomposition of Responsibilities (VoR) - No MVC
+*  + Immutability
+*  + No Getters / No Setters
+*  + No IoC / No DI
+* */
 public class Main {
     public static void main(String[] args) {
         String isbn = "178646148X";
